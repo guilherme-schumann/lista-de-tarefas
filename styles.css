@@ -64,6 +64,21 @@ body {
   box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
 }
 
+.task-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 6px 0px;
+}
+
+.task-item i {
+  background-color: #41b883;
+  color: #fff;
+  padding: 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
 /* Utilities */
 
 .error {
@@ -72,4 +87,8 @@ body {
 
 .error::placeholder {
   color: red;
+}
+
+.completed {
+  text-decoration: line-through;
 }
